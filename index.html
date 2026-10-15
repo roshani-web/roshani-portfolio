@@ -1,0 +1,482 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fffaf4">
+  <meta name="description" content="Portfolio of Roshani Khadka — Software Engineering student, AI and Machine Learning enthusiast, researcher, and youth leader.">
+  <title>Roshani Khadka | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">Myself_<span>roshani</span></a>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#leadership">Leadership</a>
+      <a class="nav-link" href="#interests">Interests</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#gallery">Gallery</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button"
+        aria-label="Switch to dark theme" title="Switch theme">☾</button>
+      <button class="menu-toggle" id="menuToggle" type="button"
+        aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">SOFTWARE ENGINEERING · LEADERSHIP · RESEARCH</p>
+        <p class="hero-intro">Hello, I'm</p>
+        <h1>Roshani <span>Khadka.</span></h1>
+        <h2>Building with technology.<br>Leading with purpose.</h2>
+        <p class="hero-description">
+          I am an aspiring software engineer interested in Artificial Intelligence,
+          Machine Learning, Quality Assurance, and research. I enjoy turning ideas
+          into useful solutions while creating a positive impact through youth leadership.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn btn-secondary" href="#contact">Let's connect</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/roshani-web" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/roshani-khadka-320a31348/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:roshanikhadka987@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about section">↓ <span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>A curious mind with a <span>purpose.</span></h2>
+        <p class="section-description">
+          Learning, experimenting, and finding ways to make technology meaningful.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>
+            I am an aspiring Software Engineering student who enjoys exploring
+            how technology can solve real-world problems. My interests include
+            software development, AI and Machine Learning, Quality Assurance,
+            and research-driven problem solving.
+          </p>
+          <p>
+            Beyond technology, I value teamwork, communication, and community
+            service. My involvement in student and youth organizations has helped
+            me develop leadership, public relations, event coordination, and
+            collaboration skills.
+          </p>
+          <p>
+            I am continuously learning, building projects, and looking for
+            opportunities to grow as both a technology professional and a leader.
+          </p>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+
+        <div class="about-cards reveal">
+          <article class="mini-card">
+            <span class="mini-icon">⌘</span>
+            <div><h3>Technology</h3><p>Software development, AI/ML, and QA.</p></div>
+          </article>
+          <article class="mini-card">
+            <span class="mini-icon">◎</span>
+            <div><h3>Research</h3><p>Curiosity, experimentation, and continuous learning.</p></div>
+          </article>
+          <article class="mini-card">
+            <span class="mini-icon">♡</span>
+            <div><h3>Community</h3><p>Youth leadership, volunteering, and meaningful impact.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="section section-alt" id="leadership">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / LEADERSHIP</p>
+        <h2>Leadership through <span>action.</span></h2>
+        <p class="section-description">
+          Experiences that have strengthened my communication, teamwork, and community engagement.
+        </p>
+      </div>
+
+      <div class="leadership-grid">
+        <article class="leadership-card reveal">
+          <span class="card-number">01</span>
+          <p class="card-label">LEADERSHIP</p>
+          <h3>Vice President</h3>
+          <h4>Kathmandu Eureka Leo Club</h4>
+          <p>Supporting club activities, coordinating members, and contributing to community service initiatives.</p>
+          <a class="text-link" href="#gallery" data-gallery-filter="leo">View club photos ↗</a>
+        </article>
+
+        <article class="leadership-card reveal">
+          <span class="card-number">02</span>
+          <p class="card-label">YOUTH ADVOCACY</p>
+          <h3>President</h3>
+          <h4>Quality Youth Network · Amnesty International Nepal</h4>
+          <p>Encouraging youth participation, awareness, teamwork, and initiatives focused on human rights.</p>
+          <a class="text-link" href="#gallery" data-gallery-filter="youth-network">View activities ↗</a>
+        </article>
+
+        <article class="leadership-card reveal">
+          <span class="card-number">03</span>
+          <p class="card-label">COMMUNICATION</p>
+          <h3>Public Relations Coordinator</h3>
+          <h4>IEEE NCIT</h4>
+          <p>Contributing to communication, event promotion, student engagement, and organizational outreach.</p>
+          <a class="text-link" href="#gallery" data-gallery-filter="ieee">View IEEE photos ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="section" id="interests">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / WHAT INTERESTS ME</p>
+        <h2>Areas I want to <span>explore.</span></h2>
+      </div>
+
+      <div class="interest-grid">
+        <article class="interest-card reveal">
+          <span class="interest-icon">✳</span>
+          <h3>Artificial Intelligence</h3>
+          <p>Exploring intelligent systems and practical AI applications.</p>
+        </article>
+        <article class="interest-card reveal">
+          <span class="interest-icon">⌘</span>
+          <h3>Machine Learning</h3>
+          <p>Learning from data and developing predictive models.</p>
+        </article>
+        <article class="interest-card reveal">
+          <span class="interest-icon">✓</span>
+          <h3>Quality Assurance</h3>
+          <p>Understanding software testing, quality, and reliability.</p>
+        </article>
+        <article class="interest-card reveal">
+          <span class="interest-icon">⌕</span>
+          <h3>Research</h3>
+          <p>Investigating problems, evaluating ideas, and learning through evidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / TECHNICAL SKILLS</p>
+        <h2>Tools I use to <span>create.</span></h2>
+        <p class="section-description">My current skills and technologies I am developing.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span>H</span><div><h3>HTML</h3><p>Web structure</p></div></article>
+        <article class="skill-card reveal"><span>C</span><div><h3>CSS</h3><p>Responsive design</p></div></article>
+        <article class="skill-card reveal"><span>JS</span><div><h3>JavaScript</h3><p>Interactive websites</p></div></article>
+        <article class="skill-card reveal"><span>Py</span><div><h3>Python</h3><p>Programming and ML</p></div></article>
+        <article class="skill-card reveal"><span>D</span><div><h3>Django</h3><p>Web application development</p></div></article>
+        <article class="skill-card reveal"><span>AI</span><div><h3>AI & Machine Learning</h3><p>Model development and experimentation</p></div></article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / PROJECTS</p>
+        <h2>Learning by <span>building.</span></h2>
+        <p class="section-description">A selection of projects and technical work.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-symbol">⌁</span><span class="project-index">PROJECT 01</span></div>
+          <h3>AI-Based Phishing Detection</h3>
+          <p>A phishing website detection project that uses machine learning to classify URLs and help users identify potentially harmful websites.</p>
+          <div class="tag-list"><span>Python</span><span>Machine Learning</span><span>Scikit-learn</span><span>API Integration</span></div>
+          <a class="text-link" href="https://github.com/roshani-web" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-symbol">⌘</span><span class="project-index">PROJECT 02</span></div>
+          <h3>Software Development</h3>
+          <p>Building programming and web development projects while strengthening problem-solving, application design, and coding skills.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Django</span></div>
+          <a class="text-link" href="https://github.com/roshani-web" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-symbol">✓</span><span class="project-index">PROJECT 03</span></div>
+          <h3>Quality & Testing</h3>
+          <p>Developing an interest in software quality, testing processes, and ways to make applications more dependable and user-friendly.</p>
+          <div class="tag-list"><span>QA</span><span>Testing</span><span>Problem Solving</span></div>
+          <a class="text-link" href="#contact">Discuss collaboration ↗</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-symbol">◎</span><span class="project-index">PROJECT 04</span></div>
+          <h3>Community Engagement</h3>
+          <p>Supporting youth initiatives, communications, volunteering, and collaborative activities through organizational leadership.</p>
+          <div class="tag-list"><span>Leadership</span><span>Communication</span><span>Teamwork</span></div>
+          <a class="text-link" href="#gallery">Explore the gallery ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section section-alt" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 / MY GALLERY</p>
+        <h2>Moments, milestones & <span>memories.</span></h2>
+        <p class="section-description">
+          A collection of leadership experiences, events, achievements, and project work.
+          Select a category, then open any image to browse the photos.
+        </p>
+      </div>
+
+      <div class="gallery-filters reveal" role="group" aria-label="Filter gallery photos">
+        <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All photos</button>
+        <button class="filter-btn" type="button" data-filter="ieee" aria-pressed="false">IEEE</button>
+        <button class="filter-btn" type="button" data-filter="leo" aria-pressed="false">Leo Club</button>
+        <button class="filter-btn" type="button" data-filter="youth-network" aria-pressed="false">Youth Network</button>
+        <button class="filter-btn" type="button" data-filter="events" aria-pressed="false">Events</button>
+        <button class="filter-btn" type="button" data-filter="achievements" aria-pressed="false">Achievements</button>
+        <button class="filter-btn" type="button" data-filter="projects" aria-pressed="false">Projects</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- IEEE -->
+        <button class="gallery-item reveal" type="button" data-category="ieee" data-caption="IEEE NCIT — Photo 1">
+          <img src="assets/gallery/ieee/ieee1.jpg" alt="IEEE NCIT photo 1" loading="lazy">
+          <span class="gallery-overlay"><small>IEEE NCIT</small><strong>Community & Technology</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="ieee" data-caption="IEEE NCIT — Photo 2">
+          <img src="assets/gallery/ieee/ieee2.jpg" alt="IEEE NCIT photo 2" loading="lazy">
+          <span class="gallery-overlay"><small>IEEE NCIT</small><strong>Events & Engagement</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="ieee" data-caption="IEEE NCIT — Photo 3">
+          <img src="assets/gallery/ieee/ieee3.jpg" alt="IEEE NCIT photo 3" loading="lazy">
+          <span class="gallery-overlay"><small>IEEE NCIT</small><strong>PR & Teamwork</strong></span>
+        </button>
+
+        <!-- LEO CLUB: edit these paths if your filenames differ -->
+        <button class="gallery-item reveal" type="button" data-category="leo" data-caption="Kathmandu Eureka Leo Club — Photo 1">
+          <img src="assets/gallery/leo/leo-1.jpg" alt="Kathmandu Eureka Leo Club photo 1" loading="lazy">
+          <span class="gallery-overlay"><small>LEO CLUB</small><strong>Leadership in Action</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="leo" data-caption="Kathmandu Eureka Leo Club — Photo 2">
+          <img src="assets/gallery/leo/leo-2.jpg" alt="Kathmandu Eureka Leo Club photo 2" loading="lazy">
+          <span class="gallery-overlay"><small>LEO CLUB</small><strong>Service & Friendship</strong></span>
+        </button>
+
+        <!-- YOUTH NETWORK -->
+        <button class="gallery-item reveal" type="button" data-category="youth-network" data-caption="Quality Youth Network — Photo 1">
+          <img src="assets/gallery/youth-network/youth-network1.jpg" alt="Youth Network photo 1" loading="lazy">
+          <span class="gallery-overlay"><small>YOUTH NETWORK</small><strong>Youth Engagement</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="youth-network" data-caption="Quality Youth Network — Photo 2">
+          <img src="assets/gallery/youth-network/youth-network2.jpg" alt="Youth Network photo 2" loading="lazy">
+          <span class="gallery-overlay"><small>YOUTH NETWORK</small><strong>Awareness & Advocacy</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="youth-network" data-caption="Quality Youth Network — Photo 3">
+          <img src="assets/gallery/youth-network/youth-network3.jpg" alt="Youth Network photo 3" loading="lazy">
+          <span class="gallery-overlay"><small>YOUTH NETWORK</small><strong>Working Together</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="youth-network" data-caption="Quality Youth Network — Photo 4">
+          <img src="assets/gallery/youth-network/youth-network4.jpg" alt="Youth Network photo 4" loading="lazy">
+          <span class="gallery-overlay"><small>YOUTH NETWORK</small><strong>Community Initiatives</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="youth-network" data-caption="Quality Youth Network — Photo 5">
+          <img src="assets/gallery/youth-network/youth-network5.jpg" alt="Youth Network photo 5" loading="lazy">
+          <span class="gallery-overlay"><small>YOUTH NETWORK</small><strong>Youth Leadership</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="youth-network" data-caption="Quality Youth Network — Photo 7">
+          <img src="assets/gallery/youth-network/youth-network7.jpg" alt="Youth Network photo 7" loading="lazy">
+          <span class="gallery-overlay"><small>YOUTH NETWORK</small><strong>Shared Experiences</strong></span>
+        </button>
+
+        <!-- EVENTS -->
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 1">
+          <img src="assets/gallery/events/events1.jpg" alt="Event photo 1" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Memorable Moments</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 2">
+          <img src="assets/gallery/events/events2.jpg" alt="Event photo 2" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>People & Experiences</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 4">
+          <img src="assets/gallery/events/events4.jpg" alt="Event photo 4" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Team Activities</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 5">
+          <img src="assets/gallery/events/events5.jpg" alt="Event photo 5" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Shared Memories</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 6">
+          <img src="assets/gallery/events/events6.jpg" alt="Event photo 6" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Learning Together</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 8">
+          <img src="assets/gallery/events/events8.jpg" alt="Event photo 8" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Celebrating Together</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 11">
+          <img src="assets/gallery/events/events11.jpg" alt="Event photo 11" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Community Moments</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="events" data-caption="Event — Photo 12">
+          <img src="assets/gallery/events/events12.jpg" alt="Event photo 12" loading="lazy">
+          <span class="gallery-overlay"><small>EVENTS</small><strong>Experiences to Remember</strong></span>
+        </button>
+
+        <!-- ACHIEVEMENTS -->
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 1">
+          <img src="assets/gallery/achievements/achievements1.jpg" alt="Achievement photo 1" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>Recognition & Growth</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 2">
+          <img src="assets/gallery/achievements/achievements2.jpeg" alt="Achievement photo 2" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>A Moment to Celebrate</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 4">
+          <img src="assets/gallery/achievements/achievements4.jpg" alt="Achievement photo 4" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>Milestones</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 5">
+          <img src="assets/gallery/achievements/achievements5.jpg" alt="Achievement photo 5" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>Celebrating Progress</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 6">
+          <img src="assets/gallery/achievements/achievements6.jpg" alt="Achievement photo 6" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>Recognition</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 7">
+          <img src="assets/gallery/achievements/achievements7.jpg" alt="Achievement photo 7" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>Memorable Milestones</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="achievements" data-caption="Achievement — Photo 8">
+          <img src="assets/gallery/achievements/achievements8.jpg" alt="Achievement photo 8" loading="lazy">
+          <span class="gallery-overlay"><small>ACHIEVEMENTS</small><strong>Progress & Purpose</strong></span>
+        </button>
+
+        <!-- PROJECTS -->
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 1">
+          <img src="assets/gallery/projects/projects1.jpg" alt="Project photo 1" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Building Solutions</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 2">
+          <img src="assets/gallery/projects/projects2.jpg" alt="Project photo 2" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Learning by Doing</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 3">
+          <img src="assets/gallery/projects/projects3.jpg" alt="Project photo 3" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Ideas into Practice</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 4">
+          <img src="assets/gallery/projects/projects4.jpg" alt="Project photo 4" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Project Development</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 6">
+          <img src="assets/gallery/projects/projects6.jpg" alt="Project photo 6" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Experiment & Improve</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 7">
+          <img src="assets/gallery/projects/projects7.jpg" alt="Project photo 7" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Creative Problem Solving</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 8">
+          <img src="assets/gallery/projects/projects8.jpg" alt="Project photo 8" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Technical Work</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 9">
+          <img src="assets/gallery/projects/projects9.jpg" alt="Project photo 9" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Developing Skills</strong></span>
+        </button>
+        <button class="gallery-item reveal" type="button" data-category="projects" data-caption="Project — Photo 10">
+          <img src="assets/gallery/projects/projects10.jpg" alt="Project photo 10" loading="lazy">
+          <span class="gallery-overlay"><small>PROJECTS</small><strong>Innovation & Learning</strong></span>
+        </button>
+      </div>
+
+      <p class="gallery-note">Select any photo to enlarge it. Use the arrows on your keyboard or the on-screen arrows to browse.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">07 / CONTACT</p>
+        <h2>Have an idea? Let's make something <span>meaningful.</span></h2>
+        <p>
+          I am open to connecting with people interested in software development,
+          AI and Machine Learning, research, QA, and youth initiatives.
+          Let's connect and explore opportunities to learn and collaborate.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="mailto:roshanikhadka987@gmail.com">Send me an email ↗</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/roshani-khadka-320a31348/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:roshanikhadka987@gmail.com">roshanikhadka987@gmail.com</a>
+          <a href="https://github.com/roshani-web" target="_blank" rel="noopener noreferrer">github.com/roshani-web ↗</a>
+          <a href="https://www.linkedin.com/in/roshani-khadka-320a31348/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PHOTO VIEWER -->
+  <div class="lightbox" id="galleryLightbox" role="dialog"
+    aria-modal="true" aria-label="Gallery photo viewer" aria-hidden="true" inert>
+    <button class="lightbox-close" id="lightboxClose" type="button"
+      aria-label="Close photo viewer">×</button>
+    <button class="lightbox-nav" id="lightboxPrev" type="button"
+      aria-label="Previous photo">‹</button>
+    <figure class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+      <p class="lightbox-counter" id="lightboxCounter"></p>
+    </figure>
+    <button class="lightbox-nav" id="lightboxNext" type="button"
+      aria-label="Next photo">›</button>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" type="button"
+    aria-label="Back to top" title="Back to top">↑</button>
+
+  <footer class="footer">
+    <a class="logo" href="#home">R<span>.</span>K</a>
+    <p>Designed with purpose by Roshani Khadka · © <span id="currentYear"></span></p>
+    <a class="text-link" href="#home">Back to the beginning ↑</a>
+  </footer>
+</body>
+</html>
+
